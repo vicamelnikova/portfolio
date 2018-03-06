@@ -1,0 +1,143 @@
+/*General elements characteristics */
+
+body, 
+html {
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	font-family: Roboto;
+	color: #2d3c49;
+}
+
+
+h1, 
+h2, 
+h3 {
+	margin: 0;
+}
+
+
+h1 {
+	font-size: 42px;
+	line-height: 2em;
+	text-transform: uppercase;
+}
+
+
+h2 {
+	font-size: 32px;
+	line-height: 2em;
+	font-weight: 300;
+}
+
+
+h3 {
+	font-size: 20px;
+	line-height: 1.2em;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+a:hover, a:active {
+    color: #02b3e4;
+}
+
+
+a:link {
+    color: #2d3c49;
+}
+
+
+img, 
+embed, 
+object, 
+video {
+	max-width: 100%;
+}
+
+
+.container {
+	width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.box {
+    width: 100%;
+}
+
+
+/*header*/
+.header-logo {
+	width: 10%;
+	padding-top: 2.5%;
+}
+
+
+.header-text {
+	width: 90%;
+	text-align: right;
+}
+
+
+.title-description {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+
+/*Gray line under the header*/
+.divider {
+	background-color: #7d97ad;
+	padding-bottom: 0.3%;
+	margin-bottom: 3%;
+}
+
+/*Portfolio*/
+.overview {
+	padding-top: 5%;
+	padding-bottom: 3%;
+	color: #7d97ad;
+}
+
+
+/* TODO: add .portfolio-image-4 and so on when new elements added */
+.portfolio-image-1, 
+.portfolio-image-2, 
+.portfolio-image-3 {
+	width: 30%;
+}
+
+
+/*Empty columns for spacing between portfolio images 30 5 30 5 30*/
+.portfolio-gap {
+	width: 5%;
+}
+
+
+.project-title {
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 24px;
+	padding-top: 10%;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+
+.project-url {
+	font-size: 12px;
+	font-weight: 200;
+	font-style: italic;
+	padding-top: 0;
+	padding-bottom: 10%;
+	text-align: center;
+}
